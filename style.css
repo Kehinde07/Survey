@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+main{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 36.4%;
+    margin-right: 30%;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    background-color: rgb(187, 187, 187);
+}
+header{
+    text-align: center;
+    color: rgb(13, 13, 13);
+}
+#description{
+    font-size: 14px;
+    margin-top: 10px;
+}
+#survey-form{
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.form-group{
+    margin: 15px;
+    gap: 2;
+    display: flex;
+    flex-direction: column;
+}
+.role{
+    display: flex;
+}
+input, select{
+    margin-top: 5px;
+    border: none;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+label{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1px;
+}
+.select-role, .remark{
+    margin-bottom: 6px;
+}
+select{
+    padding-right: 10px;
+}
+.radio-group{
+    display: flex;
+}
+[type="radio"]+label{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.checkbox-group{
+    display: flex;
+}
+[type="checkbox"]+label{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+textarea{
+    height: 150px;
+    border-radius: 10px;
+    outline: none;
+    padding: 6px;
+    border: none;
+}
+#submit{
+    padding-top: 1px;
+    height: 50px;
+    border-radius: 6px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color:black;
+}
+#submit:hover{
+    background-color: rgb(218, 163, 163);
+}
